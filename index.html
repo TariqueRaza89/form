@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form__container">
+        <!-- country -->
+        <div class="select__field">
+          <label for="country">Select a country</label>
+          <select id="country" class="form__control">
+            <option value="">-- Country --</option>
+          </select>
+        </div>
+        <!-- end country row -->
+
+        <!-- region -->
+
+        <div class="select__field">
+          <label for="region">Select a region</label>
+          <select id="region" class="form__control">
+            <option value="">-- Region --</option>
+          </select>
+        </div>
+
+        <!-- end region row -->
+
+        <!-- city -->
+
+        <div class="select__field">
+          <label for="city">Select a city</label>
+          <select id="city" class="form__control">
+            <option value="">-- City --</option>
+          </select>
+        </div>
+
+        <!-- end city row -->
+      </div>
+      <div id="location">
+        <h1>Your Location</h1>
+        <p id="country1"></p>
+        <p id="region1"></p>
+        <p id="city1"></p>
+      </div>
+      <!-- end container -->
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
